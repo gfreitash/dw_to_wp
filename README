@@ -1,0 +1,16 @@
+dw_to_wp - Move Dokuwiki pages to WordPress posts
+
+This quick & dirty script moves Dokuwiki pages to WordPress posts.
+The initial version was written by Beau Lebens, see
+http://dentedreality.com.au/2013/01/29/import-dokuwiki-pages-into-wordpress/
+
+Operation:
+1) Copy the script to WordPress root.
+2) Edit the uppercase variables: $DW_INDEXES, $DW_FETCH_URL, $AUTHOR_ID,
+   $TAG_MAP and $PAGE_NAME_PREFIX
+3) Prevent user login to WordPress
+4) Back up your Wordpress data. Dump the WP MySQL table and make a copy of
+   wp-content/uploads/.
+5) Execute the script.
+6) Enjoy the excellent results and remove the unnecessary backup files :-)
+
